@@ -6,7 +6,7 @@
 
 #define HAVE_STDBOOL_H
 
-#ifdef __unix
+#if defined(__unix__) || defined(__APPLE__)
   #include <string.h>
   #define MYTHREAD_POSIX
 #else

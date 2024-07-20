@@ -16,6 +16,7 @@
 
 #include "range_common.h"
 #include "price.h"
+#include <assert.h>
 
 
 /// Maximum number of symbols that can be put pending into lzma_range_encoder
